@@ -1,0 +1,74 @@
+.bg-image {
+	background-image: url('img/mountains.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 90vh;
+}
+
+.bg-color {
+	background-color: rgba(79, 166, 188, 0.753);;
+	height: 90vh;
+}
+
+.bg-color {
+	color: white;
+}
+
+.bg-color h1 {
+	font-size: 50px;
+}
+
+.left {
+	padding-top: 150px;
+}
+
+.left button {
+	background-color: transparent;
+	border: 1px solid blue;
+	color: white;
+}
+
+.color {
+	background-color: #33393a;
+}
+
+.padding {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.alert-danger {
+	border: 1px solid #337ab7;
+	background-color: white;
+	color: black;
+}
+
+.alert-danger h3 {
+	color: #337ab7;
+}
+
+.alert-info {
+	background-color: #337ab7;
+	color: white;
+}
+
+.bg-grey {
+	background-color: #f2f4f7;
+}
+
+.panel-heading h4 {
+	color: black;
+}
+
+.panel-heading a {
+	text-decoration: none;
+}
+
+.image img {
+	margin-top: -70px;
+}
+
+.socila i {
+	color: #337ab7; 
+	font-size: 20px;
+}
