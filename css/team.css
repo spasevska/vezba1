@@ -1,0 +1,61 @@
+.w3-modal {
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-color: transparent;
+    padding-bottom: 130px;
+    z-index: 99999;
+}
+
+.w3-modal-content {
+    /* margin: auto; */
+    background-color: transparent;
+    /* position: relative; */
+    /* padding: 0; */
+    /* outline: 0; */
+    /* width: 600px; */
+    width: 95%;
+}
+
+.w3-card-4,
+.w3-hover-shadow:hover {
+    /* box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: none;
+}
+
+.banner-img {
+    /* width: 60%; */
+    float: left;
+    /* position: fixed; */
+    /* z-index: 2; */
+}
+
+.banner-text {
+    width: 35%;
+    background-color: white;
+    float: right;
+    margin-right: 50px;
+    margin-top: -550px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    /* z-index: 120; */
+}
+
+.text {
+    padding: 5rem;
+}
+
+.text a i {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.text a i:hover {
+    color: #0077b5;
+}
+
+.banner-text header {
+    position: relative;
+}
+
+.w3-display-topright {
+    font-size: 25px;
+    color: grey;
+}

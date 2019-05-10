@@ -1,0 +1,98 @@
+.bgbg {
+    background: url('../img/bg-bw.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+.title {
+    margin-top: 200px;
+    color: #ff2c40;
+    font-size: 130px;
+    font-weight: bolder;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.842);
+    margin-top: -50px;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+.companytitle {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-top .col-md-3 {
+    padding: 150px 70px;
+    cursor: pointer;
+    max-height: 550px;
+}
+
+.border-top .col-md-3 a {
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.border-top .col-md-3 h4 {
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.border-top .col-md-3:not(:last-of-type) {
+    border-right: 1px solid #d2d2d2;
+}
+
+.border-top .link-hover img, .border-top .link-hover p {
+    visibility: hidden;
+}
+
+.border-top .col-md-3:hover {
+    color: #fff;
+    background-color: #282828;
+}
+
+.border-top .col-md-3:hover .link-hover img, .border-top .col-md-3:hover .link-hover p, .border-top .col-md-3:hover .link-hover h4 {
+    visibility: visible;
+    color: grey;
+}
+
+.border-top .col-md-3 .link-hover:hover img, .border-top .col-md-3 .link-hover:hover p, .border-top .col-md-3 .link-hover:hover h4 {
+    color: white;
+}
+
+.border-top .col-md-3:hover a.link-hover {
+    text-decoration: none;
+}
+
+.border-top {
+    margin-bottom: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+      font-size: 80px;
+    }
+  }
+
+
+@media screen and (max-width: 600px) {
+    .title {
+      font-size: 60px;
+    }
+  }
+
+
+@media screen and (max-width: 425px) {
+    .title {
+      font-size: 45px;
+    }
+    .subtitle {
+        font-size: 20px;
+    }
+  }

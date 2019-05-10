@@ -1,0 +1,170 @@
+.page-s {
+    background-image: url(../img/bg-bw2.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+    width: 100%;
+}
+
+.footer {
+    display: none;
+}
+
+.left, .right, .main {
+    background-color: white;
+}
+
+.left {
+    height: 50vh;
+    box-shadow: 0px 0px 20px 2px rgba(128, 128, 128, 0.5);
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    height: 60vh;
+    box-shadow: 0px 0px 20px 2px rgba(128, 128, 128, 0.5);
+    margin-left: -8.333%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+.button {
+    margin: 15px auto;
+    padding: 16px 45px;
+}
+
+.button:hover {
+    color: white;
+    background: linear-gradient(90deg,#ff2c40,#f15a3e);
+}
+
+.active {
+    color: white;
+    background: #ff2c40;
+}
+
+.active:hover {
+    color: white;
+    background: linear-gradient(90deg,#ff2c40,#f15a3e);
+}
+
+.right div {
+    background: linear-gradient(180deg,#ff2c40,#f15a3e);
+    padding: 0;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.right ul {
+    padding-left: 15px;
+    margin: 0;
+    list-style: none;
+    background-color: #ffffff;
+}
+.right li {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.main {
+    height: 80vh;
+    box-shadow: 0px 0px 20px 2px rgba(128, 128, 128, 0.5);
+    margin-top: 10vh;
+}
+
+.main ul {
+    margin: 0;
+    margin-left: -5vw;
+    list-style: none;
+}
+
+
+.accordion-panel {
+    padding: 10px;
+    display: none;
+}
+.accordion-panel p {
+    line-height: 21px;
+    color: #444;
+    font-size: 13px;
+    margin-top: 0;
+}
+.accordion-toggle {
+    margin: 40px auto;
+    border-bottom: 0;
+}
+.accordion-toggle hr {
+    border: .5px solid lightgrey;
+}
+.accordion-link {
+    position: relative;
+    color: #ff2c40;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 10px 7px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.accordion-on.accordion-link span:after {
+    opacity: 0;
+}
+.accordion-on.accordion-link span {
+    transform: rotate(90deg);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+.main .button {
+    padding: 10px 100px 10px 10px;
+    margin: 5px;
+    margin-left: -50px;
+    color: white;
+    background: #ff2c40!important;
+}
+
+
+@media screen and (max-width: 576px) {
+    .button {
+        font-size: 15px;
+    }
+    .right {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-items: baseline;
+        justify-content: center;
+    }
+
+    .main ul {
+        margin-left: -15vw;
+    }
+
+    .accordion-panel ul {
+        font-size: 8px;
+        margin-left: 10px;
+        padding: 0;
+    }
+
+
+    .right div ul {
+        padding: 0;
+    }
+  }

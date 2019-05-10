@@ -1,0 +1,37 @@
+.bg-map {
+    /* width: 100vw; */
+    background-image: url("../img/bg-map.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.t-white {
+    color: white;
+}
+
+.t-white p a{
+    color: red;
+}
+
+.f-content {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20vh;
+}
+.s-content {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10vh auto;
+}
+
+.g-overlay {
+    background-color: rgba(0, 0, 0, 0.726);
+    /* width: 100vw; */
+}

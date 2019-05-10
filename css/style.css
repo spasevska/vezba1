@@ -1,0 +1,879 @@
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-color-white {
+    background-color: white !important;
+    -webkit-box-shadow: 0 1px 8px 0 rgba(90, 90, 90, 1);
+    box-shadow: 0 1px 8px 0 rgba(90, 90, 90, 1);
+}
+
+.navbar-color-white .navbar-nav>li>a:hover {
+    color: rgb(99, 97, 97);
+    background-color: transparent;
+}
+
+.navbar-color-white .navbar-nav>li>a {
+    color: rgb(99, 97, 97);
+}
+
+.navigation {
+    background-color: transparent;
+    background-image: none;
+    transition: all .5s ease-in-out 0s;
+    padding: 20px 50px;
+    margin: 0;
+    border: 0;
+}
+
+.mobile-color {
+    background-color: black !important;
+    height: 100vh;
+}
+
+.navbar-default.navigation .navbar-brand .logo {
+    max-width: 160px;
+    margin-top: 0;
+}
+
+.navbar-default.navigation .navbar-brand .logoImg {
+    width: 160px;
+}
+
+.navbar-default.navigation .navbar-brand .hide-logo {
+    display: block;
+}
+
+.navbar-default .navbar-nav li a.btn-gradient {
+    background: #ff2c40;
+    background: linear-gradient(90deg, #ff2c40, #f15a3e);
+    padding: 16px 45px;
+    border: 1px solid transparent;
+}
+
+.navbar-default .navbar-nav li a.btn-gradient:hover {
+    background: #ff2c40;
+}
+
+.act {
+    border-top: 1.5px solid #ff2c40;
+}
+
+.act a {
+    color: #ff2c40 !important;
+}
+
+a.btn-gradient {
+    background: #ff2c40;
+    background: linear-gradient(90deg, #ff2c40, #f15a3e);
+    padding: 16px 45px;
+    color: #fff;
+    border-radius: 0;
+}
+
+a.btn-gradient:hover {
+    background: #ff2c40;
+    color: #fff;
+}
+
+.carousel .carousel-screen img {
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel {
+    position: relative;
+    height: 128vh;
+}
+
+.carousel-inner .item img {
+    height: 100vh;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    /* width: 530px; */
+    width: 40%;
+    color: white;
+}
+
+.carousel-text .dark {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.carousel-text ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-text ul li {
+    display: inline;
+}
+
+.carousel .carousel-right .carousel-right-img {
+    max-height: 470px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.carousel-text .btn-transparent-white {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 16px 45px;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+.carousel-text .btn-transparent-white:hover {
+    color: grey;
+    background-color: #fff;
+}
+
+.color-gradient, .color-gradient:hover, .arrow-scroll i:hover {
+    color: #ff2c40;
+    color: linear-gradient(90deg, #ff2c40, #f15a3e);
+}
+
+.content h1 {
+    line-height: 50px;
+    font-size: 40px;
+}
+
+.left-content p {
+    line-height: 35px;
+    font-size: 16px;
+    color: rgb(136, 134, 134);
+}
+
+.left-content {
+    margin-bottom: 55px;
+}
+
+.padding {
+    padding-bottom: 120px;
+}
+
+.border-top {
+    border-top: 1px solid #d2d2d2;
+}
+
+.border-top .col-md-4 {
+    padding: 150px 70px;
+    cursor: pointer;
+    max-height: 550px;
+}
+
+.border-top .col-md-4 a {
+    color: black;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.border-top .col-md-4 h4 {
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.border-top .col-md-4:not(:last-of-type) {
+    border-right: 1px solid #d2d2d2;
+}
+
+.border-top .link-hover img, .border-top .link-hover p {
+    visibility: hidden;
+}
+
+.border-top .col-md-4:hover {
+    color: #fff;
+    background-color: #282828;
+}
+
+.border-top .img1:hover {
+    background-image: url('https://www.localised.com/img/tile-skirt-jp-ad84734c27.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.border-top .img2:hover {
+    background-image: url('https://www.localised.com/img/tile-label-7f0ca560b2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.border-top .img3:hover {
+    background-image: url('https://www.localised.com/img/tile-skirt-black-ab3936bd41.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.border-top .col-md-4:hover .link-hover img, .border-top .col-md-4:hover .link-hover p, .border-top .col-md-4:hover .link-hover h4 {
+    visibility: visible;
+    color: grey;
+}
+
+.border-top .col-md-4 .link-hover:hover img, .border-top .col-md-4 .link-hover:hover p, .border-top .col-md-4 .link-hover:hover h4 {
+    color: white;
+}
+
+.border-top .col-md-4:hover a.link-hover {
+    text-decoration: none;
+}
+
+.bg-image {
+    background: #282828 url('https://www.localised.com/img/bg-laptop-c6c1b378d7.jpg') no-repeat top 0 center;
+    background-size: cover;
+}
+
+.content-screen {
+    background: #fff;
+    color: #282828;
+    margin: 210px auto;
+    padding: 90px 150px;
+    text-align: center;
+    width: 70%;
+}
+
+.content-screen h2 {
+    font-size: 37px;
+    line-height: 50px;
+}
+
+.my-120 {
+    margin-bottom: 120px;
+}
+
+/* scrool img vertical */
+
+.inner-img {
+    /* width: 700px; */
+    height: 510px;
+    margin-top: 60px;
+    overflow: hidden;
+    top: 0;
+    box-shadow: 3px 10px 10px #d2d2d2;
+    border-radius: 20px;
+    border: 2px solid #d2d2d2;
+    /* position: relative; */
+}
+
+.inner-img img {
+    position: relative;
+    /* left: 0; */
+    /* right: 0; */
+}
+
+.flex {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.arrow-scroll {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.arrow-scroll i {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.arrow-scroll hr {
+    border: .5px solid lightgrey;
+    width: 50px;
+}
+
+.inner-text {
+    padding: 50px 45px;
+    margin-top: 60px;
+}
+
+.content-text h2 {
+    line-height: 45px;
+}
+
+.content-text p {
+    line-height: 35px;
+}
+
+.inner-text-logo h4 {
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.inner-text-logo hr {
+    border: 1px solid #ff2c40;
+    width: 100px;
+    float: right;
+}
+
+.inner-text-logo img {
+    margin-bottom: -20px;
+    margin-left: 20px;
+}
+
+.border-color {
+    border: 1px solid #e0e0e0;
+    padding: 120px 100px;
+    min-height: 90vh;
+}
+
+.bg-grey {
+    background-color: #f8f9fb;
+    margin-top: -20px;
+    margin-left: -20px;
+    padding: 120px 70px;
+    min-height: 90vh;
+}
+
+.margin-bottom .row:not(:last-of-type) {
+    margin-bottom: 40px;
+}
+
+.bg-image1 {
+    background-image: url('https://www.localised.com/img/bg-stairs-2f58a3eec8.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-white {
+    background-color: white;
+    border: 1px solid #fff;
+    color: grey;
+    padding: 16px 45px;
+    border-radius: 0;
+}
+
+.btn-white:hover {
+    border: 1.2px solid rgb(7, 7, 7);
+}
+
+.bg-image1-padding {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d2d2d2;
+}
+
+.bg-image1-padding h1 {
+    font-size: 45px;
+}
+
+.btn-flex {
+    display: flex;
+}
+
+.btn-flex .btn, .btn-flex .btn {
+    margin: 20px 15px;
+}
+
+/* footer */
+
+.logo-bottom div img {
+    width: 160px;
+}
+
+footer {
+    padding: 50px 0;
+    border-top: 1px solid lightgrey;
+    margin-top: 10px;
+}
+
+.footer .right {
+    text-align: right
+}
+
+.footer .right span:not(:last-of-type) {
+    margin-right: 13px;
+}
+
+.footer .left, .footer .right {
+    font-size: 16px;
+}
+
+.footer .right span i {
+    font-size: 27px;
+}
+.footer .right span .fa-facebook-square:hover {
+    color: #3b5998;
+    transform: scale(1.3);
+}
+.footer .right span .fa-instagram:hover {
+    color: blue;
+    transform: scale(1.3);
+}
+.footer .right span .fa-linkedin-in:hover {
+    color: #0077b5;
+    transform: scale(1.3);
+}
+.footer .right span .fa-youtube:hover {
+    color: #ff0000;
+    transform: scale(1.3);
+}
+.footer .right p {
+    font-weight: bold;
+}
+
+/* TEAM */
+
+.team-bg-image {
+    background-image: url('https://www.localised.com/img/bg-office-1fc56f5b25.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.flex-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: white;
+    line-height: 25px;
+}
+.flex-team ul li{
+	font-size: 16px;
+	width: 100%;
+	opacity: 0;
+}
+.flex-team ul li i {
+    margin-right: 15px;
+}
+
+.flex-team h3 {
+    line-height: 35px;
+}
+
+/* card style */
+
+.overlay {
+    text-align: center;
+}
+
+.my-30 {
+    margin-bottom: 30px;
+}
+
+.overlay p {
+    color: #ff2c40;
+}
+
+.overlay h2 a {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.overlay h2 a:hover {
+    color: #e72639fd;
+}
+
+.values {
+    padding-top: 130px;
+    padding-left: 50px;
+}
+
+.values p {
+    font-size: 20px;
+}
+
+/* ends card style */
+
+
+/* Collapsed panel */
+
+.accordion-panel {
+    padding: 10px;
+    display: none;
+}
+
+.accordion-panel p {
+    line-height: 21px;
+    color: #444;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.accordion-toggle {
+    margin: 40px auto;
+    border-bottom: 0;
+}
+
+.accordion-toggle hr {
+    border: .5px solid lightgrey;
+}
+
+.accordion-link {
+    position: relative;
+    color: #ff2c40;
+    font-size: 25px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 10px 7px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.accordion-link span {
+    position: absolute;
+    background: #ff2c40;
+    width: 1px;
+    /* height: 11px; */
+    height: 20px;
+    top: 13px;
+    right: 25px;
+    /* top: 13px;
+    right: 16px; */
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.accordion-link span:after {
+    content: '';
+    position: absolute;
+    background: #ff2c40;
+    height: 1px;
+    /* width: 11px;
+    top: 5px;
+    left: -5px; */
+    width: 20px;
+    top: 9px;
+    left: -10px;
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.accordion-on.accordion-link span:after {
+    opacity: 0;
+}
+
+.accordion-on.accordion-link span {
+    transform: rotate(90deg);
+}
+
+/* HIRE US */
+
+.bg-hire-us {
+    background-image: url('https://www.localised.com/img/bg-manhattan-8d8726be47.jpg');
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.hire-us-help {
+    margin-top: 160px;
+    color: white;
+}
+
+.contact {
+    margin-top: 80px;
+    line-height: 40px;
+}
+
+.contact .dark {
+    color: white;
+}
+
+.contact p a {
+    color: #ff2c40;
+}
+
+.text-white h3 {
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    .carousel .carousel-right .carousel-right-img {
+        max-height: 360px;
+    }
+    .carousel-text {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-default.navigation .navbar-brand .logoImg {
+        width: 130px;
+    }
+    .carousel .carousel-right .carousel-right-img {
+        right: 70px;
+    }
+    .tablet-center {
+        text-align: center;
+    }
+    .border-top {
+        border-top: none;
+    }
+    .border-top .col-md-4 {
+        padding: 30px 10px;
+        cursor: pointer;
+        max-height: 150px;
+    }
+    .border-top .col-md-4:not(:last-of-type) {
+        border-right: none;
+    }
+    .border-top .col-md-4:hover {
+        color: black;
+        background-color: transparent;
+    }
+    .border-top .col-md-4 .link-hover:hover img, .border-top .col-md-4 .link-hover:hover p, .border-top .col-md-4 .link-hover:hover h4 {
+        color: black;
+    }
+    .border-top .col-md-4:hover .link-hover img, .border-top .col-md-4:hover .link-hover p, .border-top .col-md-4:hover .link-hover h4 {
+        color: black;
+    }
+    .border-top .img1:hover {
+        background-image: none;
+    }
+    .border-top .img2:hover {
+        background-image: none;
+    }
+    .border-top .img3:hover {
+        background-image: none;
+    }
+    .border-top .link-hover img {
+        visibility: visible;
+    }
+    .border-top .link-hover p {
+        display: none;
+    }
+    #section2 {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+    }
+    .img1 h4, .img2 h4, .img3 h4 {
+        padding-right: 100px;
+    }
+    #section2 .more a {
+        font-size: 13px;
+        color: #ff2c40;
+        color: linear-gradient(90deg, #ff2c40, #f15a3e);
+    }
+    .content-screen {
+        margin: 180px auto;
+        padding: 30px 50px;
+    }
+    .border-color {
+        padding: 60px 80px;
+        min-height: 0vh;
+    }
+    .border-color .content-text h2 {
+        font-size: 27px;
+    }
+    .bg-grey {
+        margin-top: -40px;
+        /* margin-left: 40px; */
+        padding: 60px 70px;
+        min-height: 0vh;
+    }
+    /* TEAM */
+    .values {
+        padding-top: 10px;
+        padding-left: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .navbar-default.navigation .navbar-brand .logoImg {
+        width: 100px;
+    }
+    .carousel-text {
+        width: 100%;
+        top: -50px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        text-align: center;
+        height: 80vh;
+    }
+    .carousel-text .dark {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .carousel {
+        height: 100vh;
+    }
+    .carousel .carousel-screen img {
+        height: 80vh;
+    }
+    .carousel .carousel-right .carousel-right-img {
+        right: 10px;
+        max-height: 250px;
+    }
+    .navigation {
+        padding: 15px 10px;
+    }
+    /* style button toggle */
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .navbar-toggle .icon-bar {
+        width: 28px;
+        height: 2px;
+        /* border-radius: 1px; */
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+        text-align: center;
+    }
+    .content h1 {
+        line-height: 35px;
+        font-size: 30px;
+    }
+    .img1 h4, .img2 h4, .img3 h4 {
+        padding-right: 0px;
+    }
+    .img1, .img2 {
+        border-bottom: 1px solid lightgrey;
+    }
+    .border-top .col-md-4 {
+        max-height: 250px;
+    }
+    #section2 .more {
+        margin-top: 30px;
+    }
+    .content-screen h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .content-screen {
+        width: 90%;
+        margin: 150px auto;
+        padding: 10px 15px;
+    }
+    .inner-text .content-text h2 {
+        line-height: 30px;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .content-text p {
+        line-height: 25px;
+        text-align: center;
+    }
+    .border-color {
+        padding: 30px 50px 70px 50px;
+    }
+    .bg-grey {
+        padding: 30px 50px;
+    }
+    .border-color .content-text h2 {
+        font-size: 26px;
+    }
+    .btn-flex {
+        flex-direction: column;
+    }
+    .bg-image1-padding h1 {
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    .btn-flex .btn, .btn-flex .btn {
+        margin: 10px;
+    }
+    .bg-image1-padding {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .logo-bottom div img {
+        width: 100px;
+    }
+    .my-120 {
+        margin-bottom: 70px;
+    }
+    .logo-bottom {
+        margin-bottom: 20px;
+    }
+    .footer {
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footer p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .footer div span {
+        font-size: 16px;
+        margin: 0 15px;
+    }
+    .footer div span i {
+        font-size: 20px;
+    }
+    .footer .right {
+        text-align: center;
+    }
+    /* HIRE US */
+    .contact .col-xs-12:not(:last-of-type) {
+        border-bottom: 1px solid grey;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .carousel-text {
+        width: 85%;
+        padding-left: 20px;
+    }
+    .carousel-text .dark {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .carousel .carousel-right .carousel-right-img {
+        right: 0px;
+        max-height: 230px;
+    }
+    .border-color {
+        padding: 30px 30px 70px 30px;
+    }
+    .bg-grey {
+        padding: 30px 40px 30px 20px;
+    }
+    .border-color .content-text h2 {
+        font-size: 24px;
+        line-height: 37px;
+    }
+    .bg-grey .margin-bottom h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .carousel .carousel-right .carousel-right-img {
+        max-height: 200px;
+    }
+    .my-120 {
+        margin-bottom: 30px;
+    }
+}

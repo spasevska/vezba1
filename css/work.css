@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+ body {
+  user-select: none;
+  background: url('../img/bg-bw.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+  
+[type=radio] {
+  display: none;
+}
+  
+#slider {
+  margin: 100px 5vw 15vh 5vw;
+  height: 35vw;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+  
+#slider label {
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  left: 0; right: 0;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+  
+#s1:checked ~ #slide3, #s2:checked ~ #slide1,
+#s3:checked ~ #slide2 {
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(-30%,0,-200px);
+}
+
+#s1:checked ~ #slide1, #s2:checked ~ #slide2,
+#s3:checked ~ #slide3 {
+  box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0,0,0,.19);
+  transform: translate3d(0,0,0);
+}
+
+#s1:checked ~ #slide2, #s2:checked ~ #slide3,
+#s3:checked ~ #slide1 {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
+  transform: translate3d(15%,0,-100px);
+}
+
+#s1:checked ~ #slide2, #s2:checked ~ #slide3,
+#s3:checked ~ #slide1{
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+  transform: translate3d(30%,0,-200px);
+}
+  
+#slide1 { background: #ffffff }
+#slide2 { background: #ffffff }
+#slide3 { background: #ffffff }
+  
+label div {
+  font-size: 70px;
+  color:#ff2c40;
+  position:absolute;
+  top:50%;
+  right:5%;
+  margin:-50px 0 0 -50px;
+  line-height:.7;
+  font-weight:bold;
+}
+
+label img {
+  height: 120%;
+  margin-top: -5%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 0.6s;
+  }
+
+label img:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transform:scale(1.01,1.01);
+}  
+
+#m-slider {
+  margin: 100px auto 150px auto;
+}
+.slide {
+  background-color: white;
+  height: 50vh; 
+  margin: 50px auto;
+}
+
+.slide img {
+  width: 100%;
+  margin-left: -10%;
+  margin-top: 10%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+
+.slide div {
+  font-size: 30px;
+  color:#ff2c40;
+  position:absolute;
+  top:50%;
+  right:5%;
+  margin:-50px 0 0 -50px;
+  line-height:.7;
+  font-weight:bold;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  label div {
+    font-size: 50px;
+  }
+
+  #slider {
+    margin: 180px 5vw 15vh 5vw;
+    height: 45vw;
+  }
+}
